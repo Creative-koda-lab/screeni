@@ -1,0 +1,19 @@
+---
+import '../styles/global.css';
+import { Editor } from '@/components/editor/Editor';
+---
+
+<!DOCTYPE html>
+<html lang="en" class="dark">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Screeni - Screenshot Generator</title>
+		<meta name="description" content="Create beautiful screenshots with drag & drop editor. Export in any size, all in your browser." />
+	</head>
+	<body class="antialiased">
+		<Editor client:load />
+	</body>
+</html>
